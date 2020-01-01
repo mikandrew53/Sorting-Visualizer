@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Sorting</title>
+</head>
+    <body>
+    <header>
+        <ul class="header-section" class="header-item">
+            <li id="merge-sort">Merge Sort</li>
+            <li id="quick-sort">Quick Sort</li>
+            <li id="bubble-sort">Bouble Sort</li>
+            <li id="test">Test</li>
+        </ul>
+        <form action="#" class="header-item">
+            <ul>
+                <li id="new-array"><button class="btn">New Array</button></li>
+                <!-- <li id="new-array">New Array</li> -->
+                <label for="">Array Size</label>
+                <div class="slidecontainer">
+                    <input type="range" min="1" max="100" value="50" class="slider" id="array-size">
+                </div>
+                <label for="">Sorting Speed</label>
+                <div class="slidecontainer">
+                    <input type="range" min="0" max="100" value="50" class="slider" id="sorting-speed">
+                </div>
+            </ul>
+        </form> 
+    </header>
+        <div id="array"></div> 
+
+    <script src="ui.js"></script>
+    <script src="./MergeSort.js"></script>
+    <script src="./BubbleSort.js"></script>
+    <script src="./QuickSort.js"></script>
+    <script src="./test.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
+
+

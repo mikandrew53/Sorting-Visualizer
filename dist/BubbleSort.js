@@ -37,7 +37,7 @@ class BubbleSort {
         ui.array[right] = temp; 
     }
 
-    testBubbleSort(array){
+    async testBubbleSort(array){
         for (let i = this.ui.array.length-1; i > 0; i--){
             for (let j = 0, k = 1; j < i; j++, k++) {
                     let elementOne = document.getElementById(j);

@@ -4,9 +4,9 @@ const quickSortObj = new QuickSort(ui);
 const mergeSortObj = new MergeSort(ui);
 const test = new Test();
 
-document.getElementById('test').addEventListener('click', ()=>{
-    test.test();
-});
+// document.getElementById('test').addEventListener('click', ()=>{
+//     test.test();
+// });
 
 
 ui.arraySlider.addEventListener('input', () => {

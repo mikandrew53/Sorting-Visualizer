@@ -63,7 +63,7 @@ class MergeSort {
         for(let i = numSwitches; i > 0; i--){
             let tempElementOne = document.getElementById(leftIndex),
             tempElementTwo = document.getElementById(rightIndex);
-            this.ui.changeDivColour(tempElementOne, 'purple');
+//             this.ui.changeDivColour(tempElementOne, 'purple');
             this.ui.changeDivColour(tempElementTwo, 'red');
             this.switchElements(array, leftIndex, rightIndex);
             this.ui.switchElements(tempElementOne, tempElementTwo);

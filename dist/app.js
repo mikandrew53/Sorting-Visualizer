@@ -8,6 +8,12 @@ const test = new Test();
 //     test.test();
 // });
 
+function onLoad() {
+    ui.getArray();
+    ui.arrayActive = true;
+}
+    
+
 
 ui.arraySlider.addEventListener('input', () => {
     if (ui.arrayActive)
